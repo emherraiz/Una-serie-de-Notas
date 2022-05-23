@@ -85,10 +85,8 @@ class Medidas_de_tendencia_central:
 
 
 class Dispersion:
-    def __init__(self):
+    def __init__(self, datos):
         
-
-
 notas = Medidas_de_tendencia_central([3,19,10,15,14,12,9,8,11,12,11,12,13,11,14,16])
 notas.calcular_rango()
 notas.calcular_media()
